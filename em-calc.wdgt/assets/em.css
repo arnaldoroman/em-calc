@@ -1,0 +1,45 @@
+#front {
+background: transparent url(../Default.png) no-repeat top left;
+height: 54px;
+width: 200px;
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+font: normal 100% Arial,Helvetica;
+}
+input[type=text] {
+height: 15px;
+width: 30px;
+padding: 3px;
+position: absolute;
+top: 11px;
+border: 1px solid #ccc;
+-webkit-border-radius: 4px;
+}
+input[name=px] {
+left: 25px;
+}
+input[name=em] {
+left: 90px;
+}
+label {
+position: absolute;
+top: 15px;
+font-size: .81em;
+color: #212121;
+}
+label#one {
+left: 67px;
+}
+label#two {
+left: 132px;
+}
+#copy {
+background: transparent url(copy.png) no-repeat top left;
+height: 16px;
+width: 16px;
+position: absolute;
+top: 15px;
+left: 160px;
+}
