@@ -8,7 +8,6 @@ jQuery(document).ready(function() {
 		
 		if(/^([0-9.]+)$/.test(val) && val > 0) {
 			if(jQuery(this).attr('name') == 'px') {
-				console.log('d');
 				res = Math.round(val * 0.0625 * 100) / 100;
 				if(res < 1) { res = ('' + res).substr(1); }
 			} else {
